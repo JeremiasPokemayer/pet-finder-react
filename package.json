@@ -19,7 +19,7 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "dev": "cross-env NODE_ENV=development webpack",
-    "run": "node ./dist/bundle.js"
+    "start": "live-server dist"
   },
   "dependencies": {
     "@mapbox/mapbox-gl-geocoder": "^5.0.3",
