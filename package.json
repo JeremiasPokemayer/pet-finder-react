@@ -30,6 +30,7 @@
     "dotenv-webpack": "^8.1.0",
     "jotai": "^2.12.2",
     "mapbox-gl": "^3.11.0",
+    "process": "^0.11.10",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-dropzone": "^14.3.8",

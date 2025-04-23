@@ -38,6 +38,9 @@ module.exports = {
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".css"],
+    fallback: {
+      process: require.resolve("process/browser"),
+    },
   },
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -46,6 +49,9 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./index.html",
+    }),
+    new webpack.ProvidePlugin({
+      process: "process/browser",
     }),
   ],
 };
