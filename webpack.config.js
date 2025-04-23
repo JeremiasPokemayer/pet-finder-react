@@ -3,6 +3,7 @@ const path = require("path");
 const Dotenv = require("dotenv-webpack");
 const dev = process.env.NODE_ENV == "development";
 const liveServer = require("live-server");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 if (dev) {
@@ -21,6 +22,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./index.html",
       filename: "index.html",
+    }),
+    new CopyWebpackPlugin({
+      patterns: [{ from: "_redirects", to: "" }],
     }),
     new webpack.ProvidePlugin({
       process: "process/browser",
