@@ -1,0 +1,25 @@
+.root {
+  font-family: "Poppins";
+  width: 270px;
+  height: 50px;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  margin: 10px 0px;
+}
+
+.black {
+  background-color: rgba(74, 85, 83, 1);
+}
+
+.blue {
+  background-color: rgba(90, 143, 236, 1);
+}
+
+.green {
+  background-color: rgba(0, 168, 132, 1);
+}
+
+.red {
+  background-color: rgba(235, 99, 114, 1);
+}

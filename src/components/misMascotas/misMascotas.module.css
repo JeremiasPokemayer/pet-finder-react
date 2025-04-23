@@ -1,0 +1,111 @@
+.formAuth,
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.labelAuth,
+.labelEmail,
+.labelPassword {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.bodyAuth,
+.bodyLogin,
+.bodyEmail,
+.bodyPassword {
+  margin: 0;
+}
+
+.titleLogin {
+  font-family: "Poppins";
+  color: black;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
+.bodyLogin {
+  font-family: "Roboto";
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.imageReport {
+  height: 100px;
+  width: auto;
+  grid-area: image;
+  margin-top: 10px;
+}
+
+.containerText {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: flex-start;
+  width: auto;
+  grid-area: text;
+}
+
+.editButton {
+  background-color: rgba(90, 143, 236, 1);
+  height: 80px;
+  width: auto;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  grid-area: button;
+}
+
+.petsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.containerReport {
+  width: auto;
+  background-color: darkred;
+  height: 240px;
+  margin-top: 50px;
+  border: solid 2px black;
+  font-family: "Poppins";
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  grid-template-areas:
+    ". image ."
+    "text . button";
+}
+
+@media (min-width: 960px) {
+  .containerReport {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 20px;
+  }
+
+  .petsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.containerHide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subtitleReport,
+.bodyReport {
+  margin: 0;
+}

@@ -1,0 +1,37 @@
+.formAuth,
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.labelAuth,
+.labelEmail,
+.labelPassword {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.bodyAuth,
+.bodyLogin,
+.bodyEmail,
+.bodyPassword {
+  margin: 0;
+}
+
+.titleLogin {
+  font-family: "Poppins";
+  color: black;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.bodyLogin {
+  font-family: "Roboto";
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}

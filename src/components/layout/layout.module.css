@@ -1,0 +1,11 @@
+.root {
+  font-family: "Roboto";
+  background-color: chocolate;
+  border: 2px solid yellow;
+}
+
+.footer {
+  font-family: "Roboto";
+  background-color: gold;
+  border: 2px solid blue;
+}
