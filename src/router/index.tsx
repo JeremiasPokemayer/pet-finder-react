@@ -25,8 +25,8 @@ function AppRoutes() {
         <Route path="mascotas" element={<Mascotas />}></Route>
         <Route path="report" element={<Report />}></Route>
         <Route path="datos" element={<Datos />}></Route>
-        <Route path="update" element={<UpdateData />}></Route>
-        <Route path="password" element={<UpdatePass />}></Route>
+        <Route path="/update" element={<UpdateData />}></Route>
+        <Route path="/password" element={<UpdatePass />}></Route>
         <Route path="mismascotas" element={<MisMascotas />}></Route>
         <Route path="editreport" element={<EditReportPets />}></Route>
       </Route>
