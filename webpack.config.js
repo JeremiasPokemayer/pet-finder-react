@@ -17,7 +17,17 @@ module.exports = {
   stats: {
     errorDetails: true,
   },
-  plugins: [new Dotenv()],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./index.html",
+    }),
+    new webpack.ProvidePlugin({
+      process: "process/browser",
+    }),
+    new Dotenv({
+      systemvars: true,
+    }),
+  ],
   module: {
     rules: [
       {
@@ -47,12 +57,4 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: "./index.html",
-    }),
-    new webpack.ProvidePlugin({
-      process: "process/browser",
-    }),
-  ],
 };
