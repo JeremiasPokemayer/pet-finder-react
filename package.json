@@ -9,6 +9,7 @@
     "@babel/preset-env": "^7.26.9",
     "@babel/preset-react": "^7.26.3",
     "cross-env": "^7.0.3",
+    "html-webpack-plugin": "^5.6.3",
     "live-server": "^1.2.2",
     "ts-loader": "^9.5.2",
     "typescript": "^5.8.2",
