@@ -61,7 +61,8 @@ function Header() {
           <Link to="/">
             <img
               className={css.logo}
-              src="https://s3-alpha-sig.figma.com/img/6178/8357/c19ead6c7eecf06b3b1ac2dfd5631d44?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=lClfp7XeTcLpcDt~DGvQqnBLGHqkEssPYLtAf7cqHxJFBHh556dhGRs7IcOkrhiPzgQlTHzWZeDR7igZfIpkojucNB9Dst75FO0Dq1gHu019SiBE3xPKt-8FfHmvP5FnbVEinASFSmMt4Txgs0pZlstfR0yyInmhk8BDtIim~WtpgF0NLHZbmyrRwHVBpVLNiZm3vk1OUWkW6B7HdeWMi7lzL7BOC2Bvwy4-bgKNfOklfxibU2-ok9UCuF5J-ggcwonot-mVBuIGpAgKdM~CrGZgJxmVJ-mUFJ0RitBi32VMNvYxtKfFzKOInBZTykF9U9PipNalpeOuvg3CkKVfZg__"
+              src="https://i.ibb.co/vfj3PKS/DALL-E-2025-01-15-18-35-08-A-square-logo-featuring-the-word-Jere-with-a-detailed-wolf-illustration-T.webp"
+              alt="Logo"
             ></img>
           </Link>
           <button className={css.buttonAbrir} onClick={() => setFlag(false)}>

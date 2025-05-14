@@ -27,6 +27,7 @@ export function HomeComponent() {
       <img
         src="https://i.ibb.co/YBg0FSpJ/eric-ward-ISg37-AI2-A-s-unsplash.jpg"
         className={css.image}
+        alt="Image of a dog"
       />
       <Title className={css.title}>Pet Finder App</Title>
       <Subtitle className={css.subtitle}>
